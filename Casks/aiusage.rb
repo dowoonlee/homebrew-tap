@@ -1,6 +1,6 @@
 cask "aiusage" do
-  version "0.4.0"
-  sha256 "be4945bae5bd03b865575780944318d78e6d3804a6a38be8afe974c311ec7942"
+  version "0.4.1"
+  sha256 "8b57a9c73a074e5a9d1fb6e5886b139d752835bf42453c20217e37406aab1ee2"
 
   url "https://github.com/dowoonlee/ai-service-usage/releases/download/v#{version}/AIUsage.zip"
   name "AI Usage"
@@ -12,7 +12,7 @@ cask "aiusage" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :ventura"
 
   app "AIUsage.app"
 

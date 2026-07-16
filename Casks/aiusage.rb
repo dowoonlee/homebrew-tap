@@ -1,6 +1,6 @@
 cask "aiusage" do
-  version "0.16.10"
-  sha256 "85dbdd8376de86628538c3ff36cea31110f49fe049f66f7aeae788be933d6b4f"
+  version "0.16.11"
+  sha256 "b506bcce1decc20cf96c3f3097ff45dfee4c953c51d4acf62d42c3fab603e07e"
 
   url "https://github.com/dowoonlee/ai-service-usage/releases/download/v#{version}/AIUsage.zip"
   name "AI Usage"
